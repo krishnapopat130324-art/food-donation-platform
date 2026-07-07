@@ -15,28 +15,6 @@
 
 ---
 
-# 📖 Table of Contents
-
-- About
-- Features
-- Use Cases
-- Tech Stack
-- Installation
-- Running the Project
-- API Documentation
-- Example Request
-- cURL Examples
-- Project Structure
-- Database
-- Screenshots
-- Future Enhancements
-- Contributing
-- License
-- Acknowledgments
-- Contact
-
----
-
 # 📌 About
 
 Every year, nearly **one-third of all food produced globally goes to waste**, while millions of people struggle with hunger.
