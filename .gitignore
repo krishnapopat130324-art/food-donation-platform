@@ -1,0 +1,32 @@
+# Compiled files
+*.class
+target/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Database files
+*.db
+*.h2.db
+*.mv.db
+*.trace.db
+
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
