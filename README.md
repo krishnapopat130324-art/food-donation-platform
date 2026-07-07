@@ -280,27 +280,59 @@ curl http://localhost:8080/api/donations/stats
 # 📁 Project Structure
 
 ```text
+
 food-donation-platform/
 │
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com/
-│   │   │       └── fooddonation/
-│   │   │           ├── controller/
-│   │   │           ├── entity/
-│   │   │           ├── repository/
-│   │   │           ├── service/
-│   │   │           └── FoodDonationApplication.java
-│   │
-│   ├── resources/
-│   │   ├── templates/
-│   │   ├── static/
-│   │   └── application.properties
-│
+├── .gitignore
 ├── pom.xml
 ├── README.md
-└── LICENSE
+├── mvnw
+├── mvnw.cmd
+│
+└── src/
+    ├── main/
+    │   ├── java/
+    │   │   └── com/
+    │   │       └── fooddonation/
+    │   │           │
+    │   │           ├── FoodDonationApplication.java
+    │   │           │   # Main Spring Boot entry point
+    │   │           │
+    │   │           ├── controller/
+    │   │           │   └── DonationController.java
+    │   │           │       # REST API endpoints
+    │   │           │
+    │   │           ├── service/
+    │   │           │   └── DonationService.java
+    │   │           │       # Business logic
+    │   │           │
+    │   │           ├── repository/
+    │   │           │   └── DonationRepository.java
+    │   │           │       # Database operations
+    │   │           │
+    │   │           ├── model/
+    │   │           │   └── Donation.java
+    │   │           │       # Donation entity
+    │   │           │
+    │   │           └── dto/
+    │   │               └── DonationRequest.java
+    │   │                   # Request DTO
+    │   │
+    │   └── resources/
+    │       ├── application.properties
+    │       │   # Application configuration
+    │       │
+    │       └── templates/
+    │           └── index.html
+    │               # Main web interface
+    │
+    └── test/
+        └── java/
+            └── com/
+                └── fooddonation/
+                    └── DonationServiceTest.java
+                        # Unit tests
+
 ```
 
 ---
